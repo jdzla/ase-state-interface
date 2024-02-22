@@ -119,6 +119,8 @@ class STATE(FileIOCalculator):
         """Return final atoms positions"""
         return self.results["updt_pos"]
 
+    def check_magnetization(self):
+        pass()
 
 def write_parameter(parameter, input_json, file):
     """Helper method to write input parameters"""
